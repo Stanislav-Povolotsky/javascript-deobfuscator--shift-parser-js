@@ -16,7 +16,7 @@
 
 let expect = require('expect.js');
 let SHIFT_SPEC = require('shift-spec');
-let reduce = require('shift-reducer').default;
+let reduce = require('sp-shift-reducer').default;
 
 function stmt(program) {
   return program.statements[0];

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-const { reduce, MonoidalReducer } = require('shift-reducer');
+const { reduce, MonoidalReducer } = require('sp-shift-reducer');
 const { isStrictModeReservedWord } = require('./utils');
 const { ErrorMessages } = require('./errors');
 

@@ -6,3 +6,4 @@ dist/
 shift-parser.js
 .nyc_output/
 .npmrc
+/.vs

@@ -18,19 +18,19 @@ The parser supports version 6 (release candidate 2) of the ECMA-262 standard.
 ## Installation
 
 ```sh
-npm install shift-parser
+npm install sp-shift-parser
 ```
 
 
 ## Usage
 
 ```es6
-import parse from "shift-parser";
+import parse from "sp-shift-parser";
 let ast = parse("/* ECMAScript program text */");
 ```
 
 ```es6
-import {parseScript, parseModule} from "shift-parser";
+import {parseScript, parseModule} from "sp-shift-parser";
 let scriptAST = parseScript("/* ECMAScript Script text */");
 let moduleAST = parseModule("/* ECMAScript Module text */");
 ```
@@ -38,7 +38,7 @@ let moduleAST = parseModule("/* ECMAScript Module text */");
 Or in node.js:
 
 ```js
-var parseScript = require("shift-parser").parseScript;
+var parseScript = require("sp-shift-parser").parseScript;
 var scriptAST = parseScript("/* ECMAScript Script text */");
 ```
 
@@ -46,7 +46,7 @@ var scriptAST = parseScript("/* ECMAScript Script text */");
 Location information is available in environments which support `WeakMap` via an alternative interface:
 
 ```js
-let {parseScriptWithLocation, parseModuleWithLocation} = require("shift-parser");
+let {parseScriptWithLocation, parseModuleWithLocation} = require("sp-shift-parser");
 let {tree, locations, comments} = parseScriptWithLocation("2 + 3 /* = 5 */");
 let threeNode = tree.statements[0].expression.right;
 locations.get(threeNode); // { start: { line: 1, column: 4, offset: 4 }, end: { line: 1, column: 5, offset: 5 } }

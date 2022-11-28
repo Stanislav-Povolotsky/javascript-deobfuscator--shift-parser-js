@@ -2,9 +2,9 @@
 
 const fs = require('fs');
 const crypto = require('crypto');
-const reducer = require('shift-reducer');
+const reducer = require('sp-shift-reducer');
 const normalize = require('normalize-parser-test').default;
-const { parseScriptWithLocation, parseModuleWithLocation } = require('shift-parser');
+const { parseScriptWithLocation, parseModuleWithLocation } = require('sp-shift-parser');
 
 const expectationsDir = 'node_modules/shift-parser-expectations/expectations';
 

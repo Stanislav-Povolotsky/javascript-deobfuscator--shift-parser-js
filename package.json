@@ -1,12 +1,12 @@
 {
-  "name": "shift-parser",
+  "name": "sp-shift-parser",
   "version": "8.0.0",
   "description": "ECMAScript parser that produces a Shift format AST",
   "author": "Shape Security",
-  "homepage": "https://github.com/shapesecurity/shift-parser-js",
+  "homepage": "https://github.com/Stanislav-Povolotsky/javascript-deobfuscator--shift-parser-js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shapesecurity/shift-parser-js.git"
+    "url": "https://github.com/Stanislav-Povolotsky/javascript-deobfuscator--shift-parser-js.git"
   },
   "main": "src/index.js",
   "files": [
@@ -26,7 +26,7 @@
   "dependencies": {
     "multimap": "^1.0.2",
     "shift-ast": "7.0.0",
-    "shift-reducer": "7.0.0",
+    "sp-shift-reducer": "^7.0.1",
     "shift-regexp-acceptor": "3.0.0"
   },
   "devDependencies": {
@@ -68,7 +68,7 @@
     "tree"
   ],
   "bugs": {
-    "url": "https://github.com/shapesecurity/shift-parser-js/issues"
+    "url": "https://github.com/Stanislav-Povolotsky/javascript-deobfuscator--shift-parser-js/issues"
   },
   "license": "Apache-2.0",
   "nyc": {
